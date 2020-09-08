@@ -5,7 +5,7 @@ import second.peliculas.domain.Pelicula;
 import second.peliculas.excepciones.AccesoDatosEx;
 import second.peliculas.excepciones.*;
 
-public interface AccesoDatos {
+public interface IAccesoDatos {
 
     boolean existe(String nombreRecurso) throws AccesoDatosEx;
 
